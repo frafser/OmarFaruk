@@ -1,0 +1,26 @@
+nav .my-menu .nav-item a:hover {
+  color: rgb(255, 0, 0) !important;
+}
+nav .my-menu .nav-item .home {
+  color: rgb(255, 0, 0);
+}
+nav .login a {
+  text-decoration: none;
+}
+nav .login a:hover {
+  color: rgb(255, 0, 0) !important;
+}
+
+#banner {
+  background-image: url("/image/banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner .my-text {
+  background-color: rgba(255, 61, 61, 0.416);
+}
+#banner a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(255, 0, 0);
+}/*# sourceMappingURL=main.css.map */

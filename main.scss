@@ -1,0 +1,41 @@
+$my-color: rgb(255, 0, 0);
+$my-color-2: rgba(255, 61, 61, 0.416);
+$my-color-3: white;
+
+nav{.my-menu{
+            .nav-item{
+                a{
+                    &:hover{
+                        color: $my-color !important;
+                    }
+                }
+                .home{
+                    color: $my-color;
+                } 
+            }
+        }
+    .login{
+        
+        a{
+            text-decoration: none;
+            &:hover{
+                color: $my-color !important;
+            }
+        }
+    }
+}
+#banner{
+    background-image: url("/image/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .my-text{
+        background-color: $my-color-2;
+    }
+    a{
+        text-decoration: none;
+        color: $my-color-3;
+        background-color: $my-color;
+    }
+}
