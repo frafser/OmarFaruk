@@ -12,7 +12,7 @@ nav .login a:hover {
 }
 
 #banner {
-  background: url("../image/banner2.jpg");
+  background: url(../image/banner2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
