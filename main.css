@@ -11,17 +11,17 @@ nav .login a:hover {
   color: rgb(255, 0, 0) !important;
 }
 
-#banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/image/banner2.jpg) no-repeat;
+.mybanner {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/banner2.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
   overflow: hidden;
   position: relative;
 }
-#banner .my-text {
+.mybanner .my-text {
   background-color: rgba(255, 61, 61, 0.416);
 }
-#banner a {
+.mybanner a {
   text-decoration: none;
   color: white;
   background-color: rgb(255, 0, 0);
