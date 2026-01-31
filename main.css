@@ -12,9 +12,12 @@ nav .login a:hover {
 }
 
 #banner {
-  background-image: url("../image/banner2.jpg");
+  background: url("../image/banner2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
 }
 #banner .my-text {
   background-color: rgba(255, 61, 61, 0.416);

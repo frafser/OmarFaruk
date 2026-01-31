@@ -25,9 +25,12 @@ nav{.my-menu{
     }
 }
 #banner{
-    background-image: url("../image/banner2.jpg");
+    background: url("../image/banner2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+     height: 100vh;
+    overflow: hidden;
+    position: relative;
 
 
     .my-text{
